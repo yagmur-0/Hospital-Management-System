@@ -1,31 +1,31 @@
-# 🏥 Hastane Yönetim Sistemi (Hospital Management System)
+#  Hastane Yönetim Sistemi (Hospital Management System)
 
 Bu proje, C# WinForms ve MS SQL Server kullanılarak geliştirilmiş kapsamlı bir Hastane Otomasyon Sistemidir. Sistem; Hastalar, Doktorlar ve Sekreterler olmak üzere 3 farklı kullanıcı tipine özel paneller sunmaktadır.
 
-## 🚀 Özellikler 
+##  Özellikler 
 
-### 👥 Sekreter Paneli:
+###  Sekreter Paneli:
 * Yeni doktor kaydı oluşturma, silme ve güncelleme.
 * Hastalar için yeni randevu oluşturma ve sistemdeki tüm randevuları listeleme.
 * Doktorlar için sistem üzerinden duyuru/mesaj yayınlama.
 
-### 🩺 Doktor Paneli:
+###  Doktor Paneli:
 * Kendisine ait randevuları ve hasta şikayetlerini görüntüleme.
 * Sekreter tarafından yayınlanan duyuruları okuma.
 * Kendi şifre ve kişisel bilgilerini güncelleme.
 
-### 👤 Hasta Paneli:
+###  Hasta Paneli:
 * Sisteme kayıt olma ve giriş yapma.
 * Poliklinik ve Doktor seçerek uygun saatlere randevu alma.
 * Geçmiş randevu geçmişini (tarih, saat, şikayet) görüntüleme.
 
-## 🛠️ Kullanılan Teknolojiler
+##  Kullanılan Teknolojiler
 * **Dil:** C#
 * **Arayüz:** Windows Forms (WinForms)
 * **Veritabanı:** MS SQL Server
 * **Mimari:** Katmanlı mimari prensiplerine uygun veri erişimi.
 
-## 📸 Ekran Görüntüleri
+##  Ekran Görüntüleri
 
 **Giriş Ekranı:**
 <img width="892" height="507" alt="GirisEkrani2" src="https://github.com/user-attachments/assets/298afc4b-5a60-4c12-8bfa-5a61ada2f1b9" />
@@ -39,7 +39,7 @@ Bu proje, C# WinForms ve MS SQL Server kullanılarak geliştirilmiş kapsamlı b
 **Doktor Paneli:**
 <img width="1047" height="712" alt="DoktorPaneli" src="https://github.com/user-attachments/assets/2c041b18-6409-4e31-b75b-52ba48c76fc3" />
 
-## ⚙️ Kurulum Talimatları 
+##  Kurulum Talimatları 
 
 Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
 
@@ -49,7 +49,7 @@ Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları i
 4. Kod içerisindeki (veya `App.config` dosyasındaki) **Connection String (Bağlantı Cümlesi)** kısmını kendi SQL Server adınıza (`Data Source=SİZİN_SUNUCU_ADINIZ`) göre güncelleyin.
 5. Projeyi başlatın (`F5`).
 
-## 🧪 Test Hesapları
+##  Test Hesapları
 
 Projeyi hızlıca test edebilmeniz için örnek giriş bilgileri:
 * **Hasta TC:** `22222222222` | **Şifre:** `123456`
